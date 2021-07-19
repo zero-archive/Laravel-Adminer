@@ -1,12 +1,12 @@
 # Laravel-Adminer
-Laravel 5 wrapper for [Adminer](https://github.com/vrana/adminer/).
+Laravel 5+ wrapper for [Adminer](https://github.com/vrana/adminer/).
 Adminer is an excellent database management tool in a single PHP file written by Jakub Vrana. It's a great replacement for PhpMyAdmin (also supports PostgreSQL, SQLite, MS SQL, Oracle, Firebird, SimpleDB, Elasticsearch and MongoDB).
 
 
 ## Usage
 To include the library, go to your project's folder and run:
 ```
-composer require "miroc/laravel-adminer"
+composer require "id-pal/laravel-adminer"
 ```
 
 To add adminer to Laravel routes (e.g. /adminer), update `routes/web.php` file with:
